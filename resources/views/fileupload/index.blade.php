@@ -6,7 +6,7 @@
             <div class="card-header">File Upload</div>
 
             <div class="card-body">
-                <form action="#" method="POST" enctype="multipart/form-data" name="add_name" id="add_name">  
+                <form action="{{route('upload')}}" method="POST" enctype="multipart/form-data" name="add_name" id="add_name">  
 
                     @csrf
                     <div class="form-group">

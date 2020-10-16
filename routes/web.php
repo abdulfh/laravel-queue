@@ -12,3 +12,4 @@
 */
 
 Route::get('/','FileUploadController@index');
+Route::post('/','FileUploadController@store')->name('upload');
